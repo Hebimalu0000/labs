@@ -4,7 +4,7 @@
 </script>
 
 <Item>
-	<a href="https://Hebimalu0000/webvm/" aria-label="Leaning Technologies">
+	<a href="https://Hebimalu0000.github.io/webvm/" aria-label="Leaning Technologies">
 		<TowerLogo />
 		<span class="company-name">Leaning Technologies</span>
 	</a>
