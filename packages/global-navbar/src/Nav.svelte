@@ -3,7 +3,6 @@
 
 	import LogotypeItem from "./items/Logotype.svelte";
 	import DropdownItem from "./items/Dropdown.svelte";
-	import SocialIconItem from "./items/SocialIcon.svelte";
 
 	import BigIconItem from "./popover/BigIcon.svelte";
 
@@ -30,16 +29,12 @@
 		],
 		Resources: [
 			{
-				href: "https://labs.leaningtech.com/",
-				title: "Developer Hub",
-			},
-			{
-				href: "https://labs.leaningtech.com/blog",
-				title: "Blog",
+				href: "https://github.com/leaningtech",
+				title: "GitHub | 本家",
 			},
 			{
 				href: "https://github.com/leaningtech",
-				title: "GitHub",
+				title: "GitHub | このサイト版",
 			},
 		],
 	};
@@ -52,8 +47,6 @@
 	<ul class="items desktop-only">
 		<DropdownItem title="Technology" popovertarget="global-navbar-technology" />
 		<DropdownItem title="Resources" popovertarget="global-navbar-resources" />
-		<SocialIconItem href="https://discord.leaningtech.com" icon="discord" />
-		<SocialIconItem href="https://x.com/leaningtech" icon="x" />
 	</ul>
 	<ul class="items mobile-only">
 		<DropdownItem title="Leaning Technologies" />
@@ -66,21 +59,21 @@
 		<BigIconItem
 			href="https://cheerp.io/"
 			title="Cheerp"
-			description="C++ to Wasm/JS compiler"
+			description="C++ から Wasm/JS へのコンパイラ"
 		>
 			<CheerpLogo />
 		</BigIconItem>
 		<BigIconItem
 			href="https://cheerpj.com/"
 			title="CheerpJ"
-			description="Java runtime for browsers"
+			description="ブラウザ用の Java 実行環境"
 		>
 			<CheerpJLogo />
 		</BigIconItem>
 		<BigIconItem
 			href="https://cheerpx.io/"
 			title="CheerpX"
-			description="Virtual machines for the web"
+			description="Web 用の仮想マシン"
 		>
 			<CheerpXLogo />
 		</BigIconItem>
@@ -90,13 +83,10 @@
 <nav popover aria-label="Resources" id="global-navbar-resources">
 	<ul>
 		<li>
-			<a href="https://labs.leaningtech.com/"> Developer Hub </a>
+			<a href="https://github.com/leaningtech"> GitHub | 本家 </a>
 		</li>
 		<li>
-			<a href="https://labs.leaningtech.com/blog"> Blog </a>
-		</li>
-		<li>
-			<a href="https://github.com/leaningtech"> GitHub </a>
+			<a href="https://github.com/Hebimalu0000/webvm"> GitHub | このサイト版 </a>
 		</li>
 	</ul>
 </nav>
